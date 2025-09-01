@@ -1512,7 +1512,7 @@ This `switch` statement controls the robot's parking process based on the value 
   Case 5: The robot ensures it aligns properly in the parking section. It adjusts motors and servos while tracking the line count. Once done, it resets to step 1 for further operation.
   But if no specific step applies, the robot moving as usual. If a parking section is found and the line count exceeds 12, it transitions to step 5.
 
-<hr><br>
+<br><hr>
 
 ### Function
 
@@ -1858,7 +1858,7 @@ float angleDiff(float a, float b) {
 ```
 The `angleDiff` function calculates the difference between two angles a and b, ensuring the result is within the range of -180° to 180°. If the difference exceeds these limits, it wraps around by adding or subtracting 360° to keep the result within the expected range.
 
-<hr><br>
+<br><hr>
 
 ### OpenMV
 
