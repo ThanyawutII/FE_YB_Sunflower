@@ -1218,7 +1218,7 @@ The robot will drive to park in the purple parking area that was detected, using
 
 ### **Flowchart**
 
-<image src="https://github.com/ThanyawutII/Test-2/blob/main/Obstecle%20round.jpg" height = "650">
+<image src="https://github.com/ThanyawutII/FE_YB_Sunflower/blob/main/FlowChart/ObstecleChallenge.jpg" height = "650">
 
 <hr>
 
