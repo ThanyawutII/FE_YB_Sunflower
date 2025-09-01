@@ -1,9 +1,9 @@
-# Nocturnalist-Future-Engineers
-### ***We Are Team The Nocturnalist***
+# YB-SUNFLOWER-Future-Engineers🌻✨
+### ***We Are Team YB-SUNFLOWER***
 
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4428501b-f179-4744-9167-17dbda05bc57" width="420"/>
+  <img src="https://ybrobot.club/image/YB%20Robot%20logo.png" width="420"/>
 </p>
 
 
@@ -20,15 +20,15 @@
 
 `FlowChart` This folder includes diagrams showing the logic and sequence of the robot's control program, highlighting how it processes inputs and controls movements during missions.
 
-`Others` Other essential photos.
+`Others` Other essential photos like, work schedule, and robot assemble gif.
 
-`Program` This folder includes all programming used to participate in the WRO 2024 Future Engineers Category and all the programming flowcharts.
+`Program` This folder includes all the codes that are used in the WRO 2025 Future Engineers Category and all the programming flowcharts.
 
 `Robot-Photos` This folder contains photos of the vehicle from all perspectives, including side and bottom views.
 
 `Schemes` This folder contains one or more schematic diagrams in JPEG, PNG, or PDF format that depict the electromechanical components of the vehicle. These diagrams illustrate all the elements, including electronic components and motors, and show how they are interconnected.
 
-`Team-Photos` This folder includes photos of the team participating in the WRO 2024 Future Engineers Category.
+`Team-Photos` This folder includes photos of the team participating in the WRO 2025 Future Engineers Category.
 
 `Videos` This folder contains YouTube links that show how the robot operates to complete both missions.
 
@@ -41,56 +41,46 @@
 
 </p>
 
-### **Documentation Video (Youtube Link)**
-
-This video is made with great care and dedication. It compiles all the information we included in the document and presents it in words, using animations to help you understand it the best way possible, you can [click here](https://www.youtube.com/watch?v=RbXo_x8DMwE) to view the video we created.
-
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=RbXo_x8DMwE">
-    <img src="https://github.com/ThanyawutII/Test-2/blob/main/f361b903-af0c-462e-af4d-0fd25667c293.png" width="600">
-  </a>
-</div>
-
 # **Part 1: About Us**
 
 ## **This is our team.**
-
- We are **The Nocturnalist**, team from Bangkok, Thailand. We are a part of YB-Robot club from Yothinburana School with our mentor, Punnapon Tanasnitikul. This is our club website https://ybrobot.club/. The club was established in 2009 with the first name being “YB Dream Team”. Last year, we also attend in WRO 2023 that took place in Panama.
+Our team name, YB-SUNFLOWER, carries a meaningful story. The word “Sunflower” comes from one of our seniors, Tawan (ตะวัน). In Thai, “sunflower” is ทานตะวัน, which is directly connected to his name. Since 2023, he has inspired us to join the Future Engineers Competition, always supporting us and giving guidance from outside the team. To honor the role he played in motivating us, we included “Sunflower” in our team name. This year is even more special, because for the first time, he is actually competing together with us as part of the team.
+ 
  <hr>
 
 ### **Team History** 
  
- Our team name "The Nocturnalists" are what is called “night owls”. We tend to work mostly at night because we find ourselves more focused and active once it gets dark. An owl is also a symbol of wisdom and knowledge. It consists of the word "Nocturnal", which means animals well known for being active during nighttime, with the suffix "-ist" indicating someone who practices or specializes in something. Like us, we love to work during nighttime.
+ We are **YB-SUNFLOWER**, team from Bangkok, Thailand. We are a part of YB-Robot club from Yothinburana School with our mentor, Punnapon Tanasnitikul. This is our club website https://ybrobot.club/. The club was established in 2009 with the first name being “YB Dream Team”. Last year, we also attend in WRO 2024 that took place in Türkiye.
 
-The name The Nocturnalist starts from our senior since the year 2015 in FLL Asia Pacific competition that took place in Australia. They won first place in national and got the Innovation Solution Award in international stage.</p>
- This is the first generation.
+
+ This is the first WRO international award in 2010.
   <p align="center">
-    <img src="https://github.com/Book2009/FE-NOC/blob/main/Team-Photos/The%20Nocturnalists.JPG" width="500"/>
+    <img src="https://www.ybrobot.club/image/DSC_1209.jpg" width="500"/>
 </p>
   </p>
   </p>
-This is the second generation that use this name. They compete in FLL competition national stage 2021. Due to the well-known disease "COVID-19" making the competition online. They perform well and place first. The project used a lot of resource which take numerous people from our club. </p>
-This is the second generation.
+This is the second WRO international award in 2011.
  <p align="center">
-    <img src="https://github.com/Book2009/FE-NOC/blob/main/Team-Photos/Nocturnalists%20gen2.jpg" width="500"/>
+    <img src="https://www.ybrobot.club/image/IMG_4283.jpg" width="500"/>
 </p>
   </p> 
   </p>
-Currently in 2024, we are a part of the third generation. This name has been used before by our senior, and because of its meaning. So, we decided to use it again. And by using it, there is a responsibility since our senior perform excellently. We are hoping to keep this name on the winning streak and make them proud. </p>
-This is the third generation  
+
+This is the latest WRO international award in 2024 (13th place).  
  <p align="center">
-    <img src="https://github.com/Book2009/FE-NOC/blob/main/Team-Photos/Nocturnalists%20gen3.jpg" width="500"/>
+    <img src="https://github.com/user-attachments/assets/0a5434d2-1201-4911-a0f8-85d0b6c359f3" width="500"/>
 </p>
+Currently in 2025, we are a part of YB Robot Team. Our senior brought this team name to global recognition, so there is a responsibility since our senior perform excellently. We are hoping to keep this name on the winning streak and make them proud. </p>
   </p>
   </p>
   <hr>
 
 ### **Our Team**
-   The team consists of three intimate friends Pawit Nateenantasawasd, Pongpapat Putongkam, and Thanyawut Krittikanon. We have been together for four years, forming a strong bond that enhances our collaborative efforts. We first met in high school, sharing the same class, and after some conversation, we discovered our similarities. For instance, we both share a passion for robotics and competition, which led us to join the YB-Robot club together. Much of what we know today has been learned from the experiences of our seniors, who have taught us valuable lessons and helped shape who we are now. This journey has brought us to this international stage.
+   The team consists of 2 intimate friends and 1 of our senior, 'Tawan'. Pawit Nateenantasawasd, Thanyawut Krittikanon, and Natapol Chusang. We have known each other for four years since 2021, forming a strong bond that enhances our collaborative efforts. We first met in high school, being in robot club, competing in many robot competitions together, and sharing our robotic knowledge. Much of what we know today has been learned from the experiences of our seniors in out team, who have taught us valuable lessons and helped shape who we are now.
 
-   Last year, with great enthusiasm and high spirits, we joined the WRO. Reaching the international round was already a great honor, but we were soon to realize that in order to win, one needs more than just enthusiasm. Our mistakes led us take the 8th position, a respectable position indeed. 
+   Last 2 years, with great enthusiasm and high spirits, we joined Future Engineers twice. Reaching the international round was already a great honor, but we were soon to realize that in order to win, one needs more than just enthusiasm. Our mistakes led us take the 8th and 13th position, a respectable position indeed. 
 
-   This year, we are back with greater confidence, and wiser from past experiences. We honed our strategies and prepared extensively. We fixed every mistake we have done last year and more. Being back at the international stage is one of our dreams. And we are here to make everyone proud.  
+   This year, we are back with greater confidence, and wiser from past experiences. We honed our strategies and prepared extensively. We fixed every mistake we have done last 2 years. Being back at this competition make us want to ensure the best outcome, and we are here to make everyone proud.  
 
 
 <p align="center">
@@ -100,49 +90,31 @@ This is the third generation
 <hr>
 There are three members in our team, all extremely focused and dedicated to their positions, performing functions as follows: 
  
-#### 1. Thanyawut Krittikanon – Team Coordinator and Document Designer
+#### 1. Thanyawut Krittikanon – Robot Designer
 <p align="center">
     <img src="https://github.com/Book2009/FE-NOC/blob/main/Team-Photos/Members/Thanyawut%20Krittikanon.png" width="400"/>
 </p>
-Thanyawut is in charge of documentation. He possesses both robotics and programming skills which helps him assist us in keeping our processes organized. He also ensures that every procedure and system we work on is accurately done correctly, helping us maintain a clear workflow. This will not only enable us to move forward to the next stage but to also improve on the stages we have gone through.
+Thanyawut is known in our team as **The God of Fusion**, with outstanding skills in 3D design and modeling. His expertise in creating precise and creative robot designs makes him a crucial part of our team. With his talent, he can turn our ideas into detailed models that guide the building process and bring our concepts to life.
 
-#### 2. Pawit Nateenantasawasd – The Programmer 
+#### 2. Pawit Nateenantasawasd – Document Designer and Electrician 
 <p align="center">
     <img src="https://github.com/Book2009/FE-NOC/blob/main/Team-Photos/Members/Pawit%20Nateenantasawasd.png" width="400"/>
 </p>
-This is Pawit, our talented coder. He specializes in multiple coding language such as C++, C, Python, Micropython, HTML, etc. He may seem quiet at first, but his personality contributes to his work on coding “puzzles” in a very accurate and neat manner. It is his ability to focus which allows him to take up the challenge of programming very complicated systems like ours. It is this concentration that in the end enables us to have robots that work perfectly well. Pawit is always busy, it seems, and his engagement is what makes this group effective. 
+I am Pawit, the document designer of our team. My role is to make sure that everything we present — from reports to presentations — is clear, well-structured, and professional. I enjoy transforming complex ideas into something simple and easy to understand, while also giving it a creative and polished design. Besides designing documents, I also have strong coding skills in multiple languages such as C++, C, Python, Micropython, and HTML, which allow me to contribute to the technical side of our work.
 
-#### 3. Pongpapat Putongkam – The Mechanic and Constructor
+#### 3. Natapol Chusang - Programmer
 <p align="center">
     <img src="https://github.com/ThanyawutII/Test/blob/main/Pongpapat_Putongkam.png" width="400"/>
 </p>
-We have Pongpapat, our resident robotic designer who is stereotypically imaginative. He is responsible for our robot by designing it with both 3D and Lego parts. He uses Blender to design our 3D robot model. Sometimes, he built a Lego robot chassis to test if the new components work before he starts to design it in 3D parts. He also has an ability to form ideas quite literally out of nothing. He can picture the idea of the design in his mind, it is easy to take the ideas and put it into a design that is eye catching and unique.  
+Natapol is our master programmer, and sometimes we joke that he’s not even human because of how effortlessly he can code anything. From bad-looking robot to advanced systems, he can take on any programming challenge that comes his way. His ability to quickly understand problems and turn them into working solutions makes him a key part of our team’s success. With his skills, even the most complex systems feel possible to build — it’s like there’s no code in the world he cannot write.
 
 </p>
 <hr>
 
 ### **Our Vision and Goal**
 
-We want to create a robot that can operate similarly to a self-driving car, with the hope of integrating it with an actual automobile. This competition is the first step toward our future goal of helping our country and inventing new things. Additionally, via participating in this competition, we have developed and learned numerous skills like collaboration, imagination, and foresight. We also desired to meet new friends from other nations in order to exchange cultures. Furthermore, we intend to utilize the experience we have obtained from this tournament to better ourselves and mentor our junior at school.
-<hr>
+We want to create a robot that can operate similarly to a self-driving car, with the hope of integrating it with an actual automobile. This competition is a step toward our future goal of helping our country and inventing new things. Additionally, via participating in this competition, we have developed and learned numerous skills like collaboration, imagination, and foresight. We also desired to meet new friends in order to exchange knowledge. Furthermore, we intend to utilize the experience we have obtained from this tournament to better ourselves and mentor our junior at school.
 
-### **Work Schedule**
-
-We created a thorough work plan demonstrating our devotion and cooperation and strategic planning skills. these are the well-defined people as well as deadlines that make sure that every individual in the team understands what is expected of them and by when. Setting priorities and milestones also help in effective time management, progress tracking and coping up with any unplanned activities. This approach boosts productivity in addition to teamwork as one can focus on the task at hand without risking wandering away. The plan we created is a guiding document that speeds us up and provides us with accuracy in achieving success.
-
-<p align="center">
-    <img src="https://github.com/ThanyawutII/Test/blob/main/Screenshot%202024-10-04%20124056.png" />
-</p>
-
-<p align="center">
-    <img src="https://github.com/ThanyawutII/Test/blob/main/Screenshot%202024-10-04%20124152.png" />
-</p>
-<p align="center">
-  " <em>We’re a team; we work as a whole, think as though we have a hundred heads, and know each other as if we’ve been together for years. We’ve come together, gathered the hands of each member, and moved forward with one, united mind.</em> "
-
-  <p align="center">
-  -The Nocturnalists
-</p>
 <hr>
 
 # **Part 2: MECHANICAL DESIGN**
