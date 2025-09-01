@@ -1,7 +1,5 @@
 Video
 ====
-Documentation Video:
-https://youtu.be/RbXo_x8DMwE
 
 How the robot works:
 https://www.youtube.com/watch?v=qQTfzTyW7DM
