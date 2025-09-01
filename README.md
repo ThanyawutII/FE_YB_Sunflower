@@ -84,7 +84,7 @@ Currently in 2025, we are a part of YB Robot Team. Our senior brought this team 
 
 
 <p align="center">
-    <img src="https://github.com/Book2009/FE-NOC/blob/main/Team-Photos/Formal.png" width="500"/>
+    <img src="https://github.com/ThanyawutII/FE_YB_Sunflower/blob/main/Team-Photos/Formal.webp" width="500"/>
 </p>
 
 <hr>
@@ -92,19 +92,19 @@ There are three members in our team, all extremely focused and dedicated to thei
  
 #### 1. Thanyawut Krittikanon – Robot Designer
 <p align="center">
-    <img src="https://github.com/Book2009/FE-NOC/blob/main/Team-Photos/Members/Thanyawut%20Krittikanon.png" width="400"/>
+    <img src="https://github.com/ThanyawutII/FE_YB_Sunflower/blob/main/Team-Photos/Members/Thanyawut%20Krittikanon.png" width="400"/>
 </p>
 Thanyawut is known in our team as **The God of Fusion**, with outstanding skills in 3D design and modeling. His expertise in creating precise and creative robot designs makes him a crucial part of our team. With his talent, he can turn our ideas into detailed models that guide the building process and bring our concepts to life.
 
 #### 2. Pawit Nateenantasawasd – Document Designer and Electrician 
 <p align="center">
-    <img src="https://github.com/Book2009/FE-NOC/blob/main/Team-Photos/Members/Pawit%20Nateenantasawasd.png" width="400"/>
+    <img src="https://github.com/ThanyawutII/FE_YB_Sunflower/blob/main/Team-Photos/Members/Pawit%20Nateenantasawasd.png" width="400"/>
 </p>
 I am Pawit, the document designer of our team. My role is to make sure that everything we present — from reports to presentations — is clear, well-structured, and professional. I enjoy transforming complex ideas into something simple and easy to understand, while also giving it a creative and polished design. Besides designing documents, I also have strong coding skills in multiple languages such as C++, C, Python, Micropython, and HTML, which allow me to contribute to the technical side of our work.
 
 #### 3. Natapol Chusang - Programmer
 <p align="center">
-    <img src="https://github.com/ThanyawutII/Test/blob/main/Pongpapat_Putongkam.png" width="400"/>
+    <img src="https://github.com/ThanyawutII/FE_YB_Sunflower/blob/main/Team-Photos/Members/Natapol%20Chusang.png" width="400"/>
 </p>
 Natapol is our master programmer, and sometimes we joke that he’s not even human because of how effortlessly he can code anything. From bad-looking robot to advanced systems, he can take on any programming challenge that comes his way. His ability to quickly understand problems and turn them into working solutions makes him a key part of our team’s success. With his skills, even the most complex systems feel possible to build — it’s like there’s no code in the world he cannot write.
 
@@ -1124,7 +1124,7 @@ In this round, our robot must complete three laps on a track marked with randoml
 <br>
 ● Green Obstacle: Keep to the left side of the lane.
 <br>
-The last traffic sign in the second round indicates the next move: a green sign means continue in the same direction for the third round, while a red sign requires turning around to complete the round in the opposite direction. The robot must not move any traffic signs. After finishing the three laps, the robot must find a parking lot and perform parallel parking.
+The robot must not move any traffic signs. After finishing the three laps, the robot must find a parking lot and perform parallel parking.
 
 ### **Obstacle Challenge round(Youtube Link)**
 
@@ -1140,7 +1140,7 @@ This video shows our robot completing the Second round(Obstacle Challenge), you 
 
 In the WRO 2024 Obstacle Challenge round, the robot uses a combination of ultrasonic sensors, a color sensor, a gyro, and an OpenMV Camera to navigate the course, detect and avoid obstacles, and maintain a safe distance from walls. The OpenMV Camera identifies obstacles and their colors, turning right for red obstacles and left for green ones, while the gyro ensures smooth and precise turns.
 
-After completing the second round, the robot uses the OpenMV Camera to search for the purple parking area by detecting its color and comparing its size to the red and green pillars to determine its location. If the last pillar encountered before the end of the third round is red, the robot performs a U-turn; if it is green, the robot continues straight. Once the third round is complete, the robot proceeds to park in the identified purple parking area, accurately positioning itself based on the location recorded by the OpenMV Camera.
+After completing the second round, the robot uses the OpenMV Camera to search for the purple parking area by detecting its color and comparing its size to the red and green pillars to determine its location. Once the third round is complete, the robot proceeds to park in the identified purple parking area, accurately positioning itself based on the location recorded by the OpenMV Camera.
 
 <br>
 
@@ -1178,28 +1178,6 @@ After completing the second round
 </p>
 
 The robot uses the OpenMV Camera to search for the purple parking area, detecting its color directly and comparing its size to the red and green pillars to determine its position.
-
-<br>
-
-<p align="center">
-If the color of the last pillar is green (continuing straight)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://github.com/ThanyawutII/Test-2/blob/main/con.jpg" width="700"/>
-</p>
-
-<br>
-
-<p align="center">
-If the color of the last pillar is red (U- turn)
-</p>
-
-</p>
-<p align="center">
-  <img src="https://github.com/ThanyawutII/Test-2/blob/main/uturn.jpg" width="700"/>
-</p>
 
 <br>
 
@@ -1534,13 +1512,6 @@ This `switch` statement controls the robot's parking process based on the value 
   Case 5: The robot ensures it aligns properly in the parking section. It adjusts motors and servos while tracking the line count. Once done, it resets to step 1 for further operation.
   But if no specific step applies, the robot moving as usual. If a parking section is found and the line count exceeds 12, it transitions to step 5.
 
-- #### **Section 17 [Obstacle Challenge round]**
-
-```c++
-uTurn();
-```
-If the block behind the robot is red, perform a U-Turn. (Explanation in another page).
-
 <hr><br>
 
 ### Function
@@ -1874,63 +1845,6 @@ void check_leds() {
 }
 ```
 This function is for checking sensors value.
-
-### `U Turn`
-
-```c++
-void uTurn() {
-  camera.handleIncomingData();
-  BlobData tempBlob = camera.getBlobData();
-  if ((count_line == 3 || (count_line == 4 && millis() - halt_detect_line_timer < 900))) {
-    if (tempBlob.signature == 1) {
-      currentBlock = 'R';
-    } else if (tempBlob.signature == 2) {
-      currentBlock = 'G';
-    } else {
-      currentBlock = 'N';
-    }
-
-    if (currentBlock != 'N' && currentBlock != lastblock) {
-      lastfound = previousBlock;
-      lastblock = currentBlock;
-      previousBlock = lastblock;
-    }
-  }
-
-  if (lastfound == 'G' && count_line == 8 && uturn == false) {
-    side = -1;
-    angle = 90;
-  } else if (lastfound == 'R' && count_line == 8 && uturn == false) {
-    side = 1;
-  }
-  absYaw = abs(pvYaw);
-  while (lastblock == 'R' && count_line == 8 && (millis() - halt_detect_line_timer > 1000)) {
-    getIMU();
-    uturn = true;
-    uturnYaw = pvYaw;  // Remove abs()
-    float diff = angleDiff(uturnYaw, absYaw);
-    while (diff >= -angle && diff <= angle) {
-      getIMU();
-      uturnYaw = pvYaw;  // Remove abs()
-      diff = angleDiff(uturnYaw, absYaw);
-      steering_servo(45 * side);
-      motor(50);
-      Serial.println(diff);
-    }
-
-    count_line++;
-    if (TURN == 'R') {
-      TURN = 'L';
-      plus_degree += 90;
-    } else if (TURN == 'L') {
-      TURN = 'R';
-      plus_degree -= 90;
-    }
-    break;
-  }
-}
-```
-The `uTurn` function controls the robot's U-turn based on blob detection. It checks if a red or green block is detected and updates the state. If the robot is at line 8 and a red block is detected, it performs a U-turn by adjusting the yaw, moving forward, and steering to complete the turn. The `TURN` direction is switched after the turn, and `count_line` is incremented.
 
 ### `Angle Difference`
 
